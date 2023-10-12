@@ -1,0 +1,55 @@
+[[32mINFO[m] Oct 12, 2023 11:50:10 PM Infra.BasePage - =======================================================
+[[32mINFO[m] Oct 12, 2023 11:50:10 PM Infra.BasePage - START SIMULATOR
+[[32mINFO[m] Oct 12, 2023 11:50:10 PM Infra.BasePage - =======================================================
+
+[[32mINFO[m] Oct 12, 2023 11:50:13 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:50:13 PM Infra.BasePage - LOG IN
+[[32mINFO[m] Oct 12, 2023 11:50:13 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:50:18 PM Infra.BasePage - REDIRECT TO: https://antarctica21.rezmagic.com/Staff/Account/Login?ReturnUrl=%2FStaff%2F
+[[32mINFO[m] Oct 12, 2023 11:50:22 PM Infra.BasePage - ENTER USERNAME: tliyanage
+[[32mINFO[m] Oct 12, 2023 11:50:26 PM Infra.BasePage - ENTER PASSWORD: tliyanage123
+[[32mINFO[m] Oct 12, 2023 11:50:28 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
+
+[[32mINFO[m] Oct 12, 2023 11:50:33 PM Infra.BasePage - USER LOGIN - SUCCESS
+
+[[32mINFO[m] Oct 12, 2023 11:50:37 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:50:37 PM Infra.BasePage - LOG IN SUCCESS
+[[32mINFO[m] Oct 12, 2023 11:50:37 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:50:39 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:50:39 PM Infra.BasePage - LOAD AVAILABILITY REPORT
+[[32mINFO[m] Oct 12, 2023 11:50:39 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:50:41 PM Infra.BasePage - CLICK ON VIEW BUTTON IN AVAILABILITY REPORT 
+
+[[32mINFO[m] Oct 12, 2023 11:50:48 PM Infra.BasePage - AVAILABILITY REPORT PAGE LOAD - SUCCESS
+
+[[32mINFO[m] Oct 12, 2023 11:51:02 PM Infra.BasePage - SELECT ALL SEASONS
+[[32mINFO[m] Oct 12, 2023 11:51:11 PM Infra.BasePage - SELECT ALL VESSELS
+[[32mINFO[m] Oct 12, 2023 11:51:19 PM Infra.BasePage - SELECT ALL TOURS
+[[32mINFO[m] Oct 12, 2023 11:51:23 PM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
+
+[[32mINFO[m] Oct 12, 2023 11:51:25 PM Infra.BasePage - AVAILABILITY REPORT LOAD - SUCCESS
+
+[[32mINFO[m] Oct 12, 2023 11:51:29 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:51:29 PM Infra.BasePage - AVAILABILITY REPORT LOADED
+[[32mINFO[m] Oct 12, 2023 11:51:29 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:51:31 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:51:31 PM Infra.BasePage - DOWNLOAD AVAILABILITY REPORT
+[[32mINFO[m] Oct 12, 2023 11:51:31 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:51:35 PM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
+[[32mINFO[m] Oct 12, 2023 11:51:39 PM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
+
+[[32mINFO[m] Oct 12, 2023 11:51:41 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOAD - SUCCESS 
+
+[[32mINFO[m] Oct 12, 2023 11:51:45 PM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 12, 2023 11:51:45 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOADED
+[[32mINFO[m] Oct 12, 2023 11:51:45 PM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 12, 2023 11:51:47 PM Infra.BasePage - =======================================================
+[[32mINFO[m] Oct 12, 2023 11:51:47 PM Infra.BasePage - END SIMULATOR
+[[32mINFO[m] Oct 12, 2023 11:51:47 PM Infra.BasePage - =======================================================
+
