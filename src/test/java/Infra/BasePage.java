@@ -20,8 +20,6 @@ public class BasePage
 
     public static Logger logger = LogManager.getLogger(BasePage.class);
 
-    final String AvailabilityReportFileName = "Availability Report.csv";
-
     final String relativeDownloadPath = "/Downloads";
     // Get the project directory
     final String projectDir = System.getProperty("user.dir");
