@@ -1,5 +1,6 @@
 package Infra;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -7,13 +8,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
+@Listeners(ExtentReportListener.class)
 public class BasePage
 {
     protected WebDriver driver;
@@ -50,6 +55,12 @@ public class BasePage
         driver = new ChromeDriver(getOptions());
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    }
+
+    @BeforeTest
+    public void ClearFolder() throws IOException {
+        File dictionary = new File(downloadLocation);
+        FileUtils.cleanDirectory(dictionary);
     }
 
     @AfterClass

@@ -28,8 +28,9 @@ public class LoginPage
         field.sendKeys(value);
     }
 
-    public void openLoginPage(String url) {
+    public String openLoginPage(String url) {
         driver.get(url);
+        return url;
     }
 
     public void fillUsername(String username) throws InterruptedException {
