@@ -754,7 +754,7 @@ Start: 2/5/2024 End: 2/12/2024
 Vessel: Magellan Explorer",PEN,Penthouse Suite,"$24,995.00",3,3.0,0.0
 "Classic Antarctica Air-Cruise MAG19-CA_2023-24
 Start: 2/5/2024 End: 2/12/2024
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$20,795.00",14,14.0,0.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$20,795.00",14,13.0,1.0
 "Classic Antarctica Air-Cruise MAG19-CA_2023-24
 Start: 2/5/2024 End: 2/12/2024
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$19,795.00",9,9.0,0.0
@@ -946,7 +946,7 @@ Start: 3/1/2024 End: 3/8/2024
 Vessel: Magellan Explorer",PEN,Penthouse Suite,"$22,795.00",3,3.0,0.0
 "Classic Antarctica Air-Cruise MAG24-CA_2023-24
 Start: 3/1/2024 End: 3/8/2024
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$19,395.00",14,11.0,3.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$19,395.00",14,10.0,4.0
 "Classic Antarctica Air-Cruise MAG24-CA_2023-24
 Start: 3/1/2024 End: 3/8/2024
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$17,995.00",6,2.0,4.0
@@ -1105,13 +1105,13 @@ Start: 12/2/2024 End: 12/9/2024
 Vessel: Ocean Nova",TWNF,Twin Cabin - Female Share,"$13,795.00",2,0.0,2.0
 "Classic Antarctica Air-Cruise OCN04-CA_2024-25
 Start: 12/2/2024 End: 12/9/2024
-Vessel: Ocean Nova",TWNM,Twin Cabin - Male Share,"$13,795.00",2,0.0,2.0
+Vessel: Ocean Nova",TWNM,Twin Cabin - Male Share,"$13,795.00",2,0.5,1.5
 "Classic Antarctica Air-Cruise OCN04-CA_2024-25
 Start: 12/2/2024 End: 12/9/2024
 Vessel: Ocean Nova",TRP,Triple Cabin,"$11,495.00",3,1.0,2.0
 "Classic Antarctica Air-Cruise OCN04-CA_2024-25
 Start: 12/2/2024 End: 12/9/2024
-Vessel: Ocean Nova",KAY,Sea Kayaking,$895.00,10,4.0,6.0
+Vessel: Ocean Nova",KAY,Sea Kayaking,$895.00,10,5.0,5.0
 "Classic Antarctica Air-Cruise OCN05-CA_2023-24
 Start: 12/7/2023 End: 12/14/2023
 Vessel: Ocean Nova",SGL,Single Cabin,"$17,795.00",4,4.0,0.0
@@ -1204,7 +1204,7 @@ Start: 12/17/2024 End: 12/24/2024
 Vessel: Ocean Nova",KAY,Sea Kayaking,$895.00,10,0.0,10.0
 "Classic Antarctica Air-Cruise OCN08-CA_2023-24
 Start: 12/22/2023 End: 12/29/2023
-Vessel: Ocean Nova",SGL,Single Cabin,"$21,995.00",4,4.0,0.0
+Vessel: Ocean Nova",SGL,Single Cabin,"$21,995.00",4,3.0,1.0
 "Classic Antarctica Air-Cruise OCN08-CA_2023-24
 Start: 12/22/2023 End: 12/29/2023
 Vessel: Ocean Nova",TWN,Twin Cabin,"$15,595.00",23,23.0,0.0
@@ -1360,13 +1360,13 @@ Start: 1/27/2024 End: 2/3/2024
 Vessel: Ocean Nova",KAY,Sea Kayaking,$895.00,10,9.0,1.0
 "Classic Antarctica Air-Cruise OCN15-CA_2023-24
 Start: 2/1/2024 End: 2/8/2024
-Vessel: Ocean Nova",SGL,Single Cabin,"$21,995.00",4,3.0,1.0
+Vessel: Ocean Nova",SGL,Single Cabin,"$21,995.00",4,4.0,0.0
 "Classic Antarctica Air-Cruise OCN15-CA_2023-24
 Start: 2/1/2024 End: 2/8/2024
-Vessel: Ocean Nova",TWN,Twin Cabin,"$15,595.00",23,16.0,7.0
+Vessel: Ocean Nova",TWN,Twin Cabin,"$15,595.00",23,20.0,3.0
 "Classic Antarctica Air-Cruise OCN15-CA_2023-24
 Start: 2/1/2024 End: 2/8/2024
-Vessel: Ocean Nova",TWNF,Twin Cabin - Female Share,"$15,595.00",2,0.5,1.5
+Vessel: Ocean Nova",TWNF,Twin Cabin - Female Share,"$15,595.00",2,1.0,1.0
 "Classic Antarctica Air-Cruise OCN15-CA_2023-24
 Start: 2/1/2024 End: 2/8/2024
 Vessel: Ocean Nova",TWNM,Twin Cabin - Male Share,"$15,595.00",2,0.0,2.0
@@ -1519,7 +1519,7 @@ Start: 9/13/2024 End: 9/21/2024
 Vessel: Magellan Explorer",SUT,Suite,"$8,595.00",1,0.0,1.0
 "Patagonia & Chilean Fjords Expedition MAG02-CF_2024-25 (Puerto Montt - Ushuaia) 
 Start: 9/13/2024 End: 9/21/2024
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$7,495.00",24,5.0,19.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$7,495.00",24,6.0,18.0
 "Patagonia & Chilean Fjords Expedition MAG02-CF_2024-25 (Puerto Montt - Ushuaia) 
 Start: 9/13/2024 End: 9/21/2024
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$6,995.00",8,1.0,7.0

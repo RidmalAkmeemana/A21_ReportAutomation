@@ -1,4 +1,4 @@
-package Test;
+package Tests;
 
 import Infra.BasePage;
 import Pages.AvailabilityReportPage;

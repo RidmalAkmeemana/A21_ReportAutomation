@@ -57,11 +57,11 @@ public class BasePage
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @BeforeTest
-    public void ClearFolder() throws IOException {
-        File dictionary = new File(downloadLocation);
-        FileUtils.cleanDirectory(dictionary);
-    }
+//    @BeforeTest
+//    public void ClearFolder() throws IOException {
+//        File dictionary = new File(downloadLocation);
+//        FileUtils.cleanDirectory(dictionary);
+//    }
 
     @AfterClass
     public void closeBrowser() throws InterruptedException {
