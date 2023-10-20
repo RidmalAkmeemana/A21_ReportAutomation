@@ -12,7 +12,9 @@ public class AvailabilityReportPage {
     final String AvailabilityReportFileName = "Availability Report.csv";
 
     // This is the path where you are downloading the file
-    final String downloadLocation = "../A21_ReportAutomation/Downloads";
+
+    final String absoluteDownloadLocation = "/Users/ridmal/IdeaProjects/backend-service/src/main/resources/report";
+
     private WebDriver driver;
 
     @FindBy(id="rptViewer_ctl04_ctl03_ddDropDownButton")
@@ -118,7 +120,7 @@ public class AvailabilityReportPage {
     }
 
     public boolean getAvailabilityFileName() {
-        File folder = new File(downloadLocation);
+        File folder = new File(absoluteDownloadLocation);
         File[] listOfFiles = folder.listFiles();
 
         boolean isFileAvailable = false;

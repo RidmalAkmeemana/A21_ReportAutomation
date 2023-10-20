@@ -132,6 +132,7 @@ public class AvailabilityReport extends BasePage
         Thread.sleep(2000);
 
         // Validate Availability Report
+
         reportValidation.DownloadSuccess();
         Thread.sleep(2000);
 

@@ -13,7 +13,6 @@ import org.testng.annotations.Listeners;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,22 +24,19 @@ public class BasePage
 
     public static Logger logger = LogManager.getLogger(BasePage.class);
 
-    final String relativeDownloadPath = "/Downloads";
-    // Get the project directory
-    final String projectDir = System.getProperty("user.dir");
-    // Construct the absolute download directory path
-    final String downloadLocation = Paths.get(projectDir, relativeDownloadPath).toString();
+    final String relativeDownloadLocation = "/Users/ridmal/IdeaProjects/A21_ReportAutomation/Downloads";
+
+    final String absoluteDownloadLocation = "/Users/ridmal/IdeaProjects/backend-service/src/main/resources/report";
 
     public ChromeOptions getOptions()
     {
         ChromeOptions options = new ChromeOptions();
-
         Map<String, String> prefs = new HashMap<>();
-        prefs.put("download.default_directory", downloadLocation);
+        prefs.put("download.default_directory", absoluteDownloadLocation);
         options.setExperimentalOption("prefs", prefs);
-
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless");
+
         return options;
     }
 
@@ -57,14 +53,14 @@ public class BasePage
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-//    @BeforeTest
-//    public void ClearFolder() throws IOException {
-//        File dictionary = new File(downloadLocation);
-//        FileUtils.cleanDirectory(dictionary);
-//    }
+    @BeforeTest
+    public void ClearFolders() throws IOException {
+        File dictionary = new File(absoluteDownloadLocation);
+        FileUtils.cleanDirectory(dictionary);
+    }
 
     @AfterClass
-    public void closeBrowser() throws InterruptedException {
+    public void closeBrowser() throws InterruptedException, IOException {
 
         logger.info("=======================================================");
         logger.info("END SIMULATOR");
@@ -72,5 +68,9 @@ public class BasePage
         Thread.sleep(2000);
 
         driver.quit();
+
+        // Copy downloaded files to the second directory
+        File backupDirectory = new File(relativeDownloadLocation);
+        FileUtils.copyDirectory(new File(absoluteDownloadLocation), backupDirectory);
     }
 }
