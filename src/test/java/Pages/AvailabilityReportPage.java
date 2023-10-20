@@ -13,7 +13,7 @@ public class AvailabilityReportPage {
 
     // This is the path where you are downloading the file
 
-    final String absoluteDownloadLocation = "/Users/ridmal/IdeaProjects/backend-service/src/main/resources/report";
+    final String absoluteDownloadLocation = "D:\\IdeaProjects\\backend-service\\src\\main\\resources\\report";
 
     private WebDriver driver;
 

@@ -24,9 +24,9 @@ public class BasePage
 
     public static Logger logger = LogManager.getLogger(BasePage.class);
 
-    final String relativeDownloadLocation = "/Users/ridmal/IdeaProjects/A21_ReportAutomation/Downloads";
+    final String relativeDownloadLocation = "D:\\IdeaProjects\\A21_ReportAutomation\\Downloads";
 
-    final String absoluteDownloadLocation = "/Users/ridmal/IdeaProjects/backend-service/src/main/resources/report";
+    final String absoluteDownloadLocation = "D:\\IdeaProjects\\backend-service\\src\\main\\resources\\report";
 
     public ChromeOptions getOptions()
     {
