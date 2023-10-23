@@ -24,8 +24,10 @@ public class BasePage
 
     public static Logger logger = LogManager.getLogger(BasePage.class);
 
+    //Backup File Location
     final String relativeDownloadLocation = "D:\\IdeaProjects\\A21_ReportAutomation\\Downloads";
 
+    //File Location for Back-End Service
     final String absoluteDownloadLocation = "D:\\IdeaProjects\\backend-service\\src\\main\\resources\\report";
 
     public ChromeOptions getOptions()
