@@ -1,55 +1,55 @@
-[INFO] Oct 20, 2023 6:53:08 PM Infra.BasePage - =======================================================
-[INFO] Oct 20, 2023 6:53:08 PM Infra.BasePage - START SIMULATOR
-[INFO] Oct 20, 2023 6:53:08 PM Infra.BasePage - =======================================================
+[INFO] Oct 23, 2023 7:07:59 PM Infra.BasePage - =======================================================
+[INFO] Oct 23, 2023 7:07:59 PM Infra.BasePage - START SIMULATOR
+[INFO] Oct 23, 2023 7:07:59 PM Infra.BasePage - =======================================================
 
-[INFO] Oct 20, 2023 6:53:12 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:53:12 PM Infra.BasePage - LOG IN
-[INFO] Oct 20, 2023 6:53:12 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:03 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:03 PM Infra.BasePage - LOG IN
+[INFO] Oct 23, 2023 7:08:03 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:53:16 PM Infra.BasePage - REDIRECT TO: https://antarctica21.rezmagic.com/Staff/Account/Login?ReturnUrl=%2FStaff%2F
-[INFO] Oct 20, 2023 6:53:20 PM Infra.BasePage - ENTER USERNAME: tliyanage
-[INFO] Oct 20, 2023 6:53:24 PM Infra.BasePage - ENTER PASSWORD: tliyanage123
-[INFO] Oct 20, 2023 6:53:26 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
+[INFO] Oct 23, 2023 7:08:07 PM Infra.BasePage - REDIRECT TO: https://antarctica21.rezmagic.com/Staff/Account/Login?ReturnUrl=%2FStaff%2F
+[INFO] Oct 23, 2023 7:08:11 PM Infra.BasePage - ENTER USERNAME: tliyanage
+[INFO] Oct 23, 2023 7:08:15 PM Infra.BasePage - ENTER PASSWORD: tliyanage123
+[INFO] Oct 23, 2023 7:08:17 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
 
-[INFO] Oct 20, 2023 6:53:31 PM Infra.BasePage - USER LOGIN - SUCCESS
+[INFO] Oct 23, 2023 7:08:22 PM Infra.BasePage - USER LOGIN - SUCCESS
 
-[INFO] Oct 20, 2023 6:53:35 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:53:35 PM Infra.BasePage - LOG IN SUCCESS
-[INFO] Oct 20, 2023 6:53:35 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:26 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:26 PM Infra.BasePage - LOG IN SUCCESS
+[INFO] Oct 23, 2023 7:08:26 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:53:37 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:53:37 PM Infra.BasePage - LOAD AVAILABILITY REPORT
-[INFO] Oct 20, 2023 6:53:37 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:28 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:08:28 PM Infra.BasePage - LOAD AVAILABILITY REPORT
+[INFO] Oct 23, 2023 7:08:28 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:53:39 PM Infra.BasePage - CLICK ON VIEW BUTTON IN AVAILABILITY REPORT 
+[INFO] Oct 23, 2023 7:08:30 PM Infra.BasePage - CLICK ON VIEW BUTTON IN AVAILABILITY REPORT 
 
-[INFO] Oct 20, 2023 6:53:47 PM Infra.BasePage - AVAILABILITY REPORT PAGE LOAD - SUCCESS
+[INFO] Oct 23, 2023 7:08:37 PM Infra.BasePage - AVAILABILITY REPORT PAGE LOAD - SUCCESS
 
-[INFO] Oct 20, 2023 6:54:01 PM Infra.BasePage - SELECT ALL SEASONS
-[INFO] Oct 20, 2023 6:54:09 PM Infra.BasePage - SELECT ALL VESSELS
-[INFO] Oct 20, 2023 6:54:17 PM Infra.BasePage - SELECT ALL TOURS
-[INFO] Oct 20, 2023 6:54:21 PM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
+[INFO] Oct 23, 2023 7:08:52 PM Infra.BasePage - SELECT ALL SEASONS
+[INFO] Oct 23, 2023 7:09:00 PM Infra.BasePage - SELECT ALL VESSELS
+[INFO] Oct 23, 2023 7:09:08 PM Infra.BasePage - SELECT ALL TOURS
+[INFO] Oct 23, 2023 7:09:12 PM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
 
-[INFO] Oct 20, 2023 6:54:23 PM Infra.BasePage - AVAILABILITY REPORT LOAD - SUCCESS
+[INFO] Oct 23, 2023 7:09:14 PM Infra.BasePage - AVAILABILITY REPORT LOAD - SUCCESS
 
-[INFO] Oct 20, 2023 6:54:27 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:54:27 PM Infra.BasePage - AVAILABILITY REPORT LOADED
-[INFO] Oct 20, 2023 6:54:27 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:18 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:18 PM Infra.BasePage - AVAILABILITY REPORT LOADED
+[INFO] Oct 23, 2023 7:09:18 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:54:29 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:54:29 PM Infra.BasePage - DOWNLOAD AVAILABILITY REPORT
-[INFO] Oct 20, 2023 6:54:29 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:20 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:20 PM Infra.BasePage - DOWNLOAD AVAILABILITY REPORT
+[INFO] Oct 23, 2023 7:09:20 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:54:34 PM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
-[INFO] Oct 20, 2023 6:54:38 PM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
+[INFO] Oct 23, 2023 7:09:24 PM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
+[INFO] Oct 23, 2023 7:09:28 PM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
 
-[INFO] Oct 20, 2023 6:54:40 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOAD - SUCCESS 
+[INFO] Oct 23, 2023 7:09:30 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOAD - SUCCESS 
 
-[INFO] Oct 20, 2023 6:54:44 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Oct 20, 2023 6:54:44 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOADED
-[INFO] Oct 20, 2023 6:54:44 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:34 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Oct 23, 2023 7:09:34 PM Infra.BasePage - AVAILABILITY REPORT DOWNLOADED
+[INFO] Oct 23, 2023 7:09:34 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Oct 20, 2023 6:54:46 PM Infra.BasePage - =======================================================
-[INFO] Oct 20, 2023 6:54:46 PM Infra.BasePage - END SIMULATOR
-[INFO] Oct 20, 2023 6:54:46 PM Infra.BasePage - =======================================================
+[INFO] Oct 23, 2023 7:09:36 PM Infra.BasePage - =======================================================
+[INFO] Oct 23, 2023 7:09:36 PM Infra.BasePage - END SIMULATOR
+[INFO] Oct 23, 2023 7:09:36 PM Infra.BasePage - =======================================================
 
