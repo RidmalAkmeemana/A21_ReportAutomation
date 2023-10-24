@@ -12,9 +12,6 @@ private WebDriver driver;
     @FindBy(xpath="//tbody/tr[1]/td[3]/a[1]")
     WebElement availabilityReport;
 
-    @FindBy(xpath="//tbody/tr[2]/td[3]/a[1]")
-    WebElement agentReport;
-
     @FindBy(xpath = "//h1[contains(text(),'Report: Availability Report')]")
     WebElement getReportPageHeading;
 
@@ -29,20 +26,9 @@ private WebDriver driver;
         Thread.sleep(2000);
     }
 
-    public void ViewAgentReport() throws InterruptedException {
-        agentReport.click();
-        Thread.sleep(2000);
-    }
-
     public String getAvailabilityReportExpectedPageHeading()
     {
         String Title = "Report: Availability Report";
-        return Title;
-    }
-
-    public String getAgentReportExpectedPageHeading()
-    {
-        String Title = "Report: Participation Form Report for Agents";
         return Title;
     }
 

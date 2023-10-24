@@ -424,7 +424,7 @@ Start: 12/26/2023 End: 1/2/2024
 Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$21,595.00",14,14.0,0.0
 "Classic Antarctica Air-Cruise MAG12-CA_2023-24
 Start: 12/26/2023 End: 1/2/2024
-Vessel: Magellan Explorer",VER,Veranda Cabin,"$19,995.00",9,7.0,2.0
+Vessel: Magellan Explorer",VER,Veranda Cabin,"$19,995.00",9,9.0,0.0
 "Classic Antarctica Air-Cruise MAG12-CA_2023-24
 Start: 12/26/2023 End: 1/2/2024
 Vessel: Magellan Explorer",VERF,Veranda Cabin - Female Share,"$19,995.00",1,1.0,0.0
@@ -580,19 +580,16 @@ Start: 1/14/2024 End: 1/21/2024
 Vessel: Magellan Explorer",PEN,Penthouse Suite,"$24,995.00",3,3.0,0.0
 "Classic Antarctica Air-Cruise MAG15-CA_2023-24
 Start: 1/14/2024 End: 1/21/2024
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$20,795.00",14,14.0,0.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$20,795.00",14,8.0,6.0
 "Classic Antarctica Air-Cruise MAG15-CA_2023-24
 Start: 1/14/2024 End: 1/21/2024
-Vessel: Magellan Explorer",VER,Veranda Cabin,"$19,795.00",7,7.0,0.0
+Vessel: Magellan Explorer",VER,Veranda Cabin,"$19,795.00",7,5.0,2.0
 "Classic Antarctica Air-Cruise MAG15-CA_2023-24
 Start: 1/14/2024 End: 1/21/2024
 Vessel: Magellan Explorer",VERF,Veranda Cabin - Female Share,"$19,795.00",1,0.5,0.5
 "Classic Antarctica Air-Cruise MAG15-CA_2023-24
 Start: 1/14/2024 End: 1/21/2024
-Vessel: Magellan Explorer",POR,Porthole Cabin,"$16,595.00",3,3.0,0.0
-"Classic Antarctica Air-Cruise MAG15-CA_2023-24
-Start: 1/14/2024 End: 1/21/2024
-Vessel: Magellan Explorer",PORM,Porthole Cabin - Male Share,"$16,595.00",1,0.5,0.5
+Vessel: Magellan Explorer",POR,Porthole Cabin,"$16,595.00",4,3.0,1.0
 "Classic Antarctica Air-Cruise MAG15-CA_2023-24
 Start: 1/14/2024 End: 1/21/2024
 Vessel: Magellan Explorer",TRP,Triple Suite,"$15,495.00",1,1.0,0.0
@@ -718,7 +715,7 @@ Start: 1/31/2024 End: 2/7/2024
 Vessel: Magellan Explorer",KAY,Sea Kayaking,$995.00,10,10.0,0.0
 "Classic Antarctica Air-Cruise MAG18-CA_2024-25
 Start: 1/19/2025 End: 1/26/2025
-Vessel: Magellan Explorer",SGL,Single Veranda Cabin,"$28,995.00",3,2.0,1.0
+Vessel: Magellan Explorer",SGL,Single Veranda Cabin,"$28,995.00",3,1.0,2.0
 "Classic Antarctica Air-Cruise MAG18-CA_2024-25
 Start: 1/19/2025 End: 1/26/2025
 Vessel: Magellan Explorer",PEN,Penthouse Suite,"$28,995.00",3,0.0,3.0
@@ -814,7 +811,7 @@ Start: 2/5/2025 End: 2/12/2025
 Vessel: Magellan Explorer",SUT,Suite,"$27,495.00",5,3.0,2.0
 "Classic Antarctica Air-Cruise MAG21-CA_2024-25
 Start: 2/5/2025 End: 2/12/2025
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$23,995.00",16,10.0,6.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$23,995.00",16,11.0,5.0
 "Classic Antarctica Air-Cruise MAG21-CA_2024-25
 Start: 2/5/2025 End: 2/12/2025
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$21,995.00",6,6.0,0.0
@@ -838,7 +835,7 @@ Start: 2/5/2025 End: 2/12/2025
 Vessel: Magellan Explorer",TRP,Triple Suite,"$19,795.00",1,0.0,1.0
 "Classic Antarctica Air-Cruise MAG21-CA_2024-25
 Start: 2/5/2025 End: 2/12/2025
-Vessel: Magellan Explorer",KAY,Sea Kayaking,$995.00,10,2.0,8.0
+Vessel: Magellan Explorer",KAY,Sea Kayaking,$995.00,10,4.0,6.0
 "Classic Antarctica Air-Cruise MAG22-CA_2024-25
 Start: 2/10/2025 End: 2/17/2025
 Vessel: Magellan Explorer",SGL,Single Veranda Cabin,"$28,995.00",3,0.0,3.0
@@ -886,7 +883,7 @@ Start: 2/25/2024 End: 3/3/2024
 Vessel: Magellan Explorer",PEN,Penthouse Suite,"$22,795.00",3,2.0,1.0
 "Classic Antarctica Air-Cruise MAG23-CA_2023-24
 Start: 2/25/2024 End: 3/3/2024
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$19,395.00",14,14.0,0.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$19,395.00",14,11.0,3.0
 "Classic Antarctica Air-Cruise MAG23-CA_2023-24
 Start: 2/25/2024 End: 3/3/2024
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$17,995.00",8,8.0,0.0
@@ -985,7 +982,7 @@ Start: 2/20/2025 End: 2/27/2025
 Vessel: Magellan Explorer",SUT,Suite,"$27,495.00",5,0.0,5.0
 "Classic Antarctica Air-Cruise MAG24-CA_2024-25
 Start: 2/20/2025 End: 2/27/2025
-Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$23,995.00",16,0.0,16.0
+Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$23,995.00",16,3.0,13.0
 "Classic Antarctica Air-Cruise MAG24-CA_2024-25
 Start: 2/20/2025 End: 2/27/2025
 Vessel: Magellan Explorer",VER,Veranda Cabin,"$21,995.00",6,1.0,5.0
@@ -1192,7 +1189,7 @@ Start: 12/17/2024 End: 12/24/2024
 Vessel: Ocean Nova",SGL,Single Cabin,"$17,795.00",4,1.0,3.0
 "Classic Antarctica Air-Cruise OCN07-CA_2024-25
 Start: 12/17/2024 End: 12/24/2024
-Vessel: Ocean Nova",TWN,Twin Cabin,"$13,795.00",23,4.0,19.0
+Vessel: Ocean Nova",TWN,Twin Cabin,"$13,795.00",23,12.0,11.0
 "Classic Antarctica Air-Cruise OCN07-CA_2024-25
 Start: 12/17/2024 End: 12/24/2024
 Vessel: Ocean Nova",TWNF,Twin Cabin - Female Share,"$13,795.00",2,0.5,1.5
@@ -1621,10 +1618,7 @@ Start: 1/24/2025 End: 2/2/2025
 Vessel: Magellan Explorer",DEL,Deluxe Veranda Cabin,"$29,795.00",16,13.0,3.0
 "Polar Circle Air-Cruise MAG19-PC_2024-25
 Start: 1/24/2025 End: 2/2/2025
-Vessel: Magellan Explorer",VER,Veranda Cabin,"$26,995.00",7,7.0,0.0
-"Polar Circle Air-Cruise MAG19-PC_2024-25
-Start: 1/24/2025 End: 2/2/2025
-Vessel: Magellan Explorer",VERM,Veranda Cabin - Male Share,"$26,995.00",1,0.0,1.0
+Vessel: Magellan Explorer",VER,Veranda Cabin,"$26,995.00",8,7.0,1.0
 "Polar Circle Air-Cruise MAG19-PC_2024-25
 Start: 1/24/2025 End: 2/2/2025
 Vessel: Magellan Explorer",POR,Porthole Cabin,"$22,795.00",1,1.0,0.0
@@ -1699,7 +1693,7 @@ Start: 2/16/2025 End: 2/25/2025
 Vessel: Ocean Nova",SGL,Single Cabin,"$26,395.00",4,2.0,2.0
 "Polar Circle Air-Cruise OCN18-PC_2024-25
 Start: 2/16/2025 End: 2/25/2025
-Vessel: Ocean Nova",TWN,Twin Cabin,"$18,795.00",23,9.0,14.0
+Vessel: Ocean Nova",TWN,Twin Cabin,"$18,795.00",23,15.0,8.0
 "Polar Circle Air-Cruise OCN18-PC_2024-25
 Start: 2/16/2025 End: 2/25/2025
 Vessel: Ocean Nova",TWNF,Twin Cabin - Female Share,"$18,795.00",2,0.0,2.0
