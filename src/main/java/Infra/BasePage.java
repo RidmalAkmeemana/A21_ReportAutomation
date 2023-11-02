@@ -39,7 +39,7 @@ public class BasePage
         prefs.put("download.default_directory", absoluteDownloadLocation);
         options.setExperimentalOption("prefs", prefs);
         options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
 
         return options;
     }
@@ -95,7 +95,7 @@ public class BasePage
             for (File file : downloadedFiles) {
                 if (file.isFile() && file.getName().toLowerCase().endsWith(".csv")) {
                     // Copy the CSV file to the backup directory
-                    String newFileName = "Availability_Report_" + timestamp + ".csv";
+                    String newFileName = "Comprehensive_Report_" + timestamp + ".csv";
                     File newFile = new File(backupDirectory, newFileName);
 
                     try {

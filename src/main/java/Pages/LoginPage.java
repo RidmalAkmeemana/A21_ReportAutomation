@@ -50,7 +50,7 @@ public class LoginPage
 
     public String getExpectedScreenName()
     {
-        String Title = "Reports - RezMagic";
+        String Title = "Tours - RezMagic";
         return Title;
     }
 

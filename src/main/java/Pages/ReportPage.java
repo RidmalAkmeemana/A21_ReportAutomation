@@ -9,11 +9,17 @@ public class ReportPage {
 
 
 private WebDriver driver;
-    @FindBy(xpath="//tbody/tr[1]/td[3]/a[1]")
-    WebElement availabilityReport;
+    @FindBy(xpath="//a[contains(text(),'Reports')]")
+    WebElement ReportSection;
 
-    @FindBy(xpath = "//h1[contains(text(),'Report: Availability Report')]")
+    @FindBy(xpath = "//h1[contains(text(),'Reports: All')]")
     WebElement getReportPageHeading;
+
+    @FindBy(xpath = "//a[contains(text(),'Name')]")
+    WebElement sortByName;
+
+    @FindBy(xpath = "//tbody/tr[9]/td[3]/a[1]")
+    WebElement viewComprehensiveSalesReport;
 
     public ReportPage(WebDriver driver)
     {
@@ -21,14 +27,14 @@ private WebDriver driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void ViewAvailabilityReport() throws InterruptedException {
-        availabilityReport.click();
+    public void ViewReports() throws InterruptedException {
+        ReportSection.click();
         Thread.sleep(2000);
     }
 
-    public String getAvailabilityReportExpectedPageHeading()
+    public String getExpectedPageHeading()
     {
-        String Title = "Report: Availability Report";
+        String Title = "Reports: All";
         return Title;
     }
 
@@ -36,6 +42,15 @@ private WebDriver driver;
     {
         String Title = getReportPageHeading.getText();
         return Title;
+    }
+
+    public void ViewComprehensiveSalesReport() throws InterruptedException {
+
+        sortByName.click();
+        Thread.sleep(2000);
+
+        viewComprehensiveSalesReport.click();
+        Thread.sleep(2000);
     }
 
 }

@@ -1,7 +1,7 @@
 package Validations;
 
 import Infra.BasePage;
-import Pages.AvailabilityReportPage;
+import Pages.ComprehensiveSalesReportPage;
 import Pages.ReportPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -17,61 +17,71 @@ public class ReportValidation extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void AvailabilityReport() throws InterruptedException {
+    public void ReportPage() throws InterruptedException {
 
         ReportPage reportPage = new ReportPage(driver);
 
-        String ExpectedScreen = reportPage.getAvailabilityReportExpectedPageHeading();
+        String ExpectedScreen = reportPage.getExpectedPageHeading();
         String ActualScreen = reportPage.getActualScreenName();
 
         if(ExpectedScreen.equals(ActualScreen))
         {
-            logger.info("AVAILABILITY REPORT PAGE LOAD - SUCCESS\n");
+            logger.info("REPORTS PAGE LOAD - SUCCESS\n");
             Thread.sleep(2000);
         }
         else
         {
-            logger.error("AVAILABILITY REPORT PAGE LOAD - FAILED\n");
+            logger.error("REPORTS PAGE LOAD - FAILED\n");
             Thread.sleep(2000);
         }
-        Assert.assertEquals(ExpectedScreen, ActualScreen, "AVAILABILITY REPORT PAGE LOAD - FAILED | " + ActualScreen);
+        Assert.assertEquals(ExpectedScreen, ActualScreen, "REPORTS PAGE LOAD - FAILED | " + ActualScreen);
 
     }
 
-    public void ViewAvailabilityReport() throws InterruptedException {
-        AvailabilityReportPage availabilityReportPage = new AvailabilityReportPage(driver);
+    public void ViewComprehensiveSalesReportPage() throws InterruptedException {
+        ComprehensiveSalesReportPage comprehensiveSalesReportPage = new ComprehensiveSalesReportPage(driver);
 
-        String ExpectedHeading = availabilityReportPage.getExpectedReportHeading();
-        String ActualHeading = availabilityReportPage.getActualReportHeading();
+        String ExpectedHeading = comprehensiveSalesReportPage.getExpectedReportHeading();
+        String ActualHeading = comprehensiveSalesReportPage.getActualReportHeading();
 
         if(ExpectedHeading.equals(ActualHeading))
         {
-            logger.info("AVAILABILITY REPORT LOAD - SUCCESS\n");
+            logger.info("COMPREHENSIVE SALES REPORT PAGE LOAD - SUCCESS\n");
             Thread.sleep(2000);
         }
         else
         {
-            logger.error("AVAILABILITY REPORT LOAD - FAILED\n");
+            logger.error("COMPREHENSIVE SALES REPORT PAGE LOAD - FAILED\n");
             Thread.sleep(2000);
         }
-        Assert.assertEquals(ExpectedHeading, ActualHeading, "AVAILABILITY REPORT PAGE LOAD - FAILED | " + ActualHeading);
+        Assert.assertEquals(ExpectedHeading, ActualHeading, "COMPREHENSIVE SALES REPORT PAGE LOAD - FAILED | " + ActualHeading);
+    }
+
+    public void ViewComprehensiveSalesReport() throws InterruptedException {
+        ComprehensiveSalesReportPage comprehensiveSalesReportPage = new ComprehensiveSalesReportPage(driver);
+
+        boolean isReportLoad = comprehensiveSalesReportPage.ViewComprehensiveReport();
+        Assert.assertTrue(isReportLoad, "REPORT NOT VISIBLE");
+
+        logger.info("COMPREHENSIVE SALES REPORT LOAD - SUCCESS\n");
+        Thread.sleep(2000);
     }
 
     public void DownloadSuccess() throws InterruptedException {
-        AvailabilityReportPage availabilityReportPage = new AvailabilityReportPage(driver);
+        ComprehensiveSalesReportPage comprehensiveSalesReportPage = new ComprehensiveSalesReportPage(driver);
 
-        availabilityReportPage.getAvailabilityFileName();
+        comprehensiveSalesReportPage.getComprehensiveReportFileName();
 
-        boolean isFileAvailable = availabilityReportPage.getAvailabilityFileName();
+        boolean isFileAvailable = comprehensiveSalesReportPage.getComprehensiveReportFileName();
 
         if (isFileAvailable) {
-            logger.info("AVAILABILITY REPORT DOWNLOAD - SUCCESS \n");
+            logger.info("COMPREHENSIVE REPORT DOWNLOAD - SUCCESS \n");
             Thread.sleep(2000);
         } else {
-            logger.error("AVAILABILITY REPORT DOWNLOAD - FAILED \n");
+            logger.error("COMPREHENSIVE REPORT DOWNLOAD - FAILED \n");
             Thread.sleep(2000);
         }
-        Assert.assertTrue(isFileAvailable, "AVAILABILITY REPORT DOWNLOAD - FAILED");
+        Assert.assertTrue(isFileAvailable, "COMPREHENSIVE REPORT DOWNLOAD - FAILED");
     }
 
 }
