@@ -39,7 +39,7 @@ public class BasePage
         prefs.put("download.default_directory", absoluteDownloadLocation);
         options.setExperimentalOption("prefs", prefs);
         options.addArguments("--remote-allow-origins=*");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
 
         return options;
     }
