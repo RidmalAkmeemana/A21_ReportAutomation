@@ -14,13 +14,12 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.util.Arrays;
+
 public class ExtentReportListener implements ITestListener
 {
     private static ExtentReports extent;
-
     public static String URL;
-
-    public static Logger logger = LogManager.getLogger(BasePage.class);
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     private WebDriver driver;
@@ -41,7 +40,6 @@ public class ExtentReportListener implements ITestListener
         sparkReporter.config().setDocumentTitle("Report");
         sparkReporter.config().setReportName("CSV Download");
         sparkReporter.config().setTheme(Theme.DARK);
-        //sparkReporter.config().setTimelineEnabled(true);
         sparkReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
     }
 
@@ -52,11 +50,29 @@ public class ExtentReportListener implements ITestListener
     public void onTestStart(ITestResult result) {
 
         String methodName = result.getMethod().getMethodName();
+        String Scenario = String.format(Arrays.toString(result.getParameters()));
 
-        String testName = methodName;
-        ExtentTest extentTest = extent.createTest(testName);
-        test.set(extentTest);
+        String RemoveOpenBracket = Scenario.replace("[","");
+        String RemoveCloseBracket = RemoveOpenBracket.replace("]", "");
 
+        String[] ScenarioParts = RemoveCloseBracket.split(",");
+
+        String ReportName = ScenarioParts[0];
+
+        if(Scenario.equals("[]"))
+        {
+            String testName = methodName;
+
+            ExtentTest extentTest = extent.createTest(testName);
+            test.set(extentTest);
+        }
+        else
+        {
+            String testName = methodName + " - " + ReportName;
+
+            ExtentTest extentTest = extent.createTest(testName);
+            test.set(extentTest);
+        }
     }
 
     public void onTestSuccess(ITestResult result) {

@@ -1,5 +1,6 @@
 package Pages;
 
+import Infra.LoadEnv;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,6 +27,13 @@ public class LoginPage
     public void fillField(WebElement field, String value)
     {
         field.sendKeys(value);
+    }
+
+    public String setUrl()
+    {
+        LoadEnv loadEnv = new LoadEnv();
+        String url = loadEnv.getUrl();
+        return url;
     }
 
     public String openLoginPage(String url) {

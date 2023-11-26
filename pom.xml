@@ -34,7 +34,7 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <includes>
-                        <include>**/*Tests.java</include>
+                        <include>**/*Model.java</include>
                     </includes>
                 </configuration>
             </plugin>

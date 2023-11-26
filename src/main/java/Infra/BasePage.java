@@ -44,6 +44,46 @@ public class BasePage
         return options;
     }
 
+    public void createBackUpFile()
+    {
+        // Create a timestamp for the current run in the desired format
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_hh.mm.ss a");
+        String timestamp = dateFormat.format(new Date());
+
+        // Create a directory with a timestamp in the relativeDownloadLocation
+        File backupDirectory = new File(relativeDownloadLocation, "RezMagic_Reports_" + timestamp);
+
+        if (backupDirectory.mkdirs()) {
+            logger.info("CREATED BACKUP DIRECTORY: " + backupDirectory);
+        } else if (backupDirectory.exists()) {
+            logger.info("BACKUP DIRECTORY ALREADY EXISTS: " + backupDirectory);
+        } else {
+            logger.error("FAILED TO CREATE BACKUP DIRECTORY: " + backupDirectory);
+        }
+
+        // Get the list of downloaded CSV files
+        File downloadDirectory = new File(absoluteDownloadLocation);
+        File[] downloadedFiles = downloadDirectory.listFiles();
+
+        if (downloadedFiles != null) {
+            for (File file : downloadedFiles) {
+                if (file.isFile() && file.getName().toLowerCase().endsWith(".csv")) {
+                    // Copy the CSV file to the backup directory
+                    File newFile = new File(backupDirectory, file.getName());
+
+                    try {
+                        FileUtils.copyFile(file, newFile);
+                        logger.info("COPIED FILE: " + file.getName() + " TO " + newFile.getAbsolutePath());
+                    } catch (IOException e) {
+                        logger.error("FAILED TO COPY FILE: " + file.getName() + "\n");
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+        logger.info("BACKUP FILES COPIED TO: " + backupDirectory + "\n");
+    }
+
     @BeforeClass
     public void openBrowser() throws InterruptedException {
 
@@ -71,44 +111,6 @@ public class BasePage
         Thread.sleep(2000);
 
         driver.quit();
-
-        // Create a timestamp for the current run in the desired format
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_hh.mm.ss a");
-        String timestamp = dateFormat.format(new Date());
-
-        // Create a directory with a timestamp in the relativeDownloadLocation
-        File backupDirectory = new File(relativeDownloadLocation);
-
-        if (backupDirectory.mkdirs()) {
-            logger.info("CREATED BACKUP DIRECTORY: " + backupDirectory);
-        } else if (backupDirectory.exists()) {
-            logger.info("BACKUP DIRECTORY ALREADY EXISTS: " + backupDirectory);
-        } else {
-            logger.error("FAILED TO CREATE BACKUP DIRECTORY: " + backupDirectory);
-        }
-
-        // Get the list of downloaded CSV files
-        File downloadDirectory = new File(absoluteDownloadLocation);
-        File[] downloadedFiles = downloadDirectory.listFiles();
-
-        if (downloadedFiles != null) {
-            for (File file : downloadedFiles) {
-                if (file.isFile() && file.getName().toLowerCase().endsWith(".csv")) {
-                    // Copy the CSV file to the backup directory
-                    String newFileName = "Comprehensive_Report_" + timestamp + ".csv";
-                    File newFile = new File(backupDirectory, newFileName);
-
-                    try {
-                        FileUtils.copyFile(file, newFile);
-                        logger.info("COPIED FILE: " + file.getName() + " TO " + newFile.getAbsolutePath());
-                    } catch (IOException e) {
-                        logger.error("FAILED TO COPY FILE: " + file.getName() + "\n");
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }
-
-        logger.info("BACKUP FILES COPIED TO: " + backupDirectory + "\n");
+        createBackUpFile();
     }
 }

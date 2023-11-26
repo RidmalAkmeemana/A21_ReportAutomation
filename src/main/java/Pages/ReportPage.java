@@ -21,6 +21,9 @@ private WebDriver driver;
     @FindBy(xpath = "//tbody/tr[9]/td[3]/a[1]")
     WebElement viewComprehensiveSalesReport;
 
+    @FindBy(xpath = "//tbody/tr[4]/td[3]/a[1]")
+    WebElement viewAvailabilityReport;
+
     public ReportPage(WebDriver driver)
     {
         this.driver = driver;
@@ -44,12 +47,21 @@ private WebDriver driver;
         return Title;
     }
 
-    public void ViewComprehensiveSalesReport() throws InterruptedException {
+    public void LoadComprehensiveSalesReport() throws InterruptedException {
 
         sortByName.click();
         Thread.sleep(2000);
 
         viewComprehensiveSalesReport.click();
+        Thread.sleep(2000);
+    }
+
+    public void LoadAvailabilityReport() throws InterruptedException {
+
+        sortByName.click();
+        Thread.sleep(2000);
+
+        viewAvailabilityReport.click();
         Thread.sleep(2000);
     }
 

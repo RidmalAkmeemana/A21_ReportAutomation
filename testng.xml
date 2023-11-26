@@ -3,13 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/IdeaProjects/A21_ReportAutomation">
         <classes>
-            <class name="Tests.ComprehensiveSalesReport">
-                <methods>
-                    <include name="LogIntoRezMagic"/>
-                    <include name="LoadComprehensiveSalesReport"/>
-                    <include name="DownloadComprehensiveReport"/>
-                </methods>
-            </class>
+            <class name="Model.DownloadReports"></class>
         </classes>
     </test>
 </suite>

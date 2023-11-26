@@ -1,5 +1,6 @@
 package Pages;
 
+import Infra.LoadEnv;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,8 +24,14 @@ public class ComprehensiveSalesReportPage {
     @FindBy(id="rptViewer_ctl04_ctl03_ddDropDownButton")
     WebElement season;
 
-    @FindBy(id= "rptViewer_ctl04_ctl03_divDropDown_ctl00")
-    WebElement selectAllSeason;
+    @FindBy(id= "rptViewer_ctl04_ctl03_divDropDown_ctl11")
+    WebElement selectFirstSeason;
+
+    @FindBy(id= "rptViewer_ctl04_ctl03_divDropDown_ctl12")
+    WebElement selectSecondSeason;
+
+    @FindBy(id= "rptViewer_ctl04_ctl03_divDropDown_ctl13")
+    WebElement selectThirdSeason;
 
     @FindBy(id="rptViewer_ctl04_ctl05_ddDropDownButton")
     WebElement venue;
@@ -52,11 +59,6 @@ public class ComprehensiveSalesReportPage {
 
     @FindBy(linkText = "CSV (comma delimited)")
     WebElement downloadCSV;
-
-//    @FindBy(xpath = "//a[contains(text(),'CSV (comma delimited)')]")
-//    WebElement downloadCSV;
-
-    //a[contains(text(),'CSV (comma delimited)')]
 
 
     public ComprehensiveSalesReportPage(WebDriver driver)
@@ -86,7 +88,13 @@ public class ComprehensiveSalesReportPage {
         season.click();
         Thread.sleep(2000);
 
-        selectAllSeason.click();
+        selectFirstSeason.click();
+        Thread.sleep(2000);
+
+        selectSecondSeason.click();
+        Thread.sleep(2000);
+
+        selectThirdSeason.click();
         Thread.sleep(2000);
 
         season.click();
