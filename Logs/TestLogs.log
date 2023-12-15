@@ -1,73 +1,118 @@
-[INFO] Nov 26, 2023 7:45:10 PM Infra.BasePage - =======================================================
-[INFO] Nov 26, 2023 7:45:10 PM Infra.BasePage - START SIMULATOR
-[INFO] Nov 26, 2023 7:45:10 PM Infra.BasePage - =======================================================
+[INFO] Dec 15, 2023 9:26:15 AM Infra.BasePage - =======================================================
+[INFO] Dec 15, 2023 9:26:15 AM Infra.BasePage - START SIMULATOR
+[INFO] Dec 15, 2023 9:26:15 AM Infra.BasePage - =======================================================
 
-[INFO] Nov 26, 2023 7:45:15 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:45:15 PM Infra.BasePage - LOG IN
-[INFO] Nov 26, 2023 7:45:15 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:19 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:19 AM Infra.BasePage - LOG IN
+[INFO] Dec 15, 2023 9:26:19 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:45:22 PM Infra.BasePage - REDIRECT TO: https://antarctica21.rezmagic.com/Staff/Account/Login?ReturnUrl=%2FStaff%2F
-[INFO] Nov 26, 2023 7:45:24 PM Infra.BasePage - USER ID: 001
-[INFO] Nov 26, 2023 7:45:29 PM Infra.BasePage - ENTER USERNAME: tliyanage
-[INFO] Nov 26, 2023 7:45:33 PM Infra.BasePage - ENTER PASSWORD: tliyanage123
-[INFO] Nov 26, 2023 7:45:35 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
+[INFO] Dec 15, 2023 9:26:23 AM Infra.BasePage - REDIRECT TO: https://antarctica21.rezmagic.com/Staff/Account/Login?ReturnUrl=%2FStaff%2F
+[INFO] Dec 15, 2023 9:26:25 AM Infra.BasePage - USER ID: 001
+[INFO] Dec 15, 2023 9:26:29 AM Infra.BasePage - ENTER USERNAME: tliyanage
+[INFO] Dec 15, 2023 9:26:33 AM Infra.BasePage - ENTER PASSWORD: tliyanage123
+[INFO] Dec 15, 2023 9:26:35 AM Infra.BasePage - CLICK ON LOG IN BUTTON 
 
-[INFO] Nov 26, 2023 7:45:40 PM Infra.BasePage - USER LOGIN - SUCCESS
+[INFO] Dec 15, 2023 9:26:41 AM Infra.BasePage - USER LOGIN - SUCCESS
 
-[INFO] Nov 26, 2023 7:45:44 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:45:44 PM Infra.BasePage - LOG IN SUCCESS
-[INFO] Nov 26, 2023 7:45:44 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:45 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:45 AM Infra.BasePage - LOG IN SUCCESS
+[INFO] Dec 15, 2023 9:26:45 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:45:47 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:45:47 PM Infra.BasePage - LOAD REPORTS SCREEN
-[INFO] Nov 26, 2023 7:45:47 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:47 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:47 AM Infra.BasePage - LOAD REPORTS SCREEN
+[INFO] Dec 15, 2023 9:26:47 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:45:49 PM Infra.BasePage - CLICK ON REPORTS BUTTON 
+[INFO] Dec 15, 2023 9:26:49 AM Infra.BasePage - CLICK ON REPORTS BUTTON 
 
-[INFO] Nov 26, 2023 7:45:53 PM Infra.BasePage - REPORTS PAGE LOAD - SUCCESS
+[INFO] Dec 15, 2023 9:26:54 AM Infra.BasePage - REPORTS PAGE LOAD - SUCCESS
 
-[INFO] Nov 26, 2023 7:45:57 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:45:57 PM Infra.BasePage - REPORT SCREEN LOADED
-[INFO] Nov 26, 2023 7:45:57 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:58 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:26:58 AM Infra.BasePage - REPORT SCREEN LOADED
+[INFO] Dec 15, 2023 9:26:58 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:45:59 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:45:59 PM Infra.BasePage - LOAD COMPREHENSIVE SALES REPORT
-[INFO] Nov 26, 2023 7:45:59 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:27:00 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:27:00 AM Infra.BasePage - LOAD COMPREHENSIVE SALES REPORT
+[INFO] Dec 15, 2023 9:27:00 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:46:01 PM Infra.BasePage - CLICK ON VIEW COMPREHENSIVE SALES REPORT BUTTON 
+[INFO] Dec 15, 2023 9:27:02 AM Infra.BasePage - CLICK ON VIEW COMPREHENSIVE SALES REPORT BUTTON 
 
-[INFO] Nov 26, 2023 7:46:11 PM Infra.BasePage - COMPREHENSIVE SALES REPORT PAGE LOAD - SUCCESS
+[INFO] Dec 15, 2023 9:27:11 AM Infra.BasePage - COMPREHENSIVE SALES REPORT PAGE LOAD - SUCCESS
 
-[INFO] Nov 26, 2023 7:46:30 PM Infra.BasePage - SELECT SEASONS
-[INFO] Nov 26, 2023 7:46:38 PM Infra.BasePage - SELECT ALL VENUES
-[INFO] Nov 26, 2023 7:46:46 PM Infra.BasePage - SELECT ALL TOURS
-[INFO] Nov 26, 2023 7:46:50 PM Infra.BasePage - SELECT INCLUDE CANCELLED: TRUE
-[INFO] Nov 26, 2023 7:46:54 PM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
+[INFO] Dec 15, 2023 9:27:29 AM Infra.BasePage - SELECT SEASONS
+[INFO] Dec 15, 2023 9:27:38 AM Infra.BasePage - SELECT ALL VENUES
+[INFO] Dec 15, 2023 9:27:46 AM Infra.BasePage - SELECT ALL TOURS
+[INFO] Dec 15, 2023 9:27:50 AM Infra.BasePage - SELECT INCLUDE CANCELLED: TRUE
+[INFO] Dec 15, 2023 9:27:54 AM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
 
-[INFO] Nov 26, 2023 7:47:00 PM Infra.BasePage - COMPREHENSIVE SALES REPORT LOAD - SUCCESS
+[INFO] Dec 15, 2023 9:27:59 AM Infra.BasePage - COMPREHENSIVE SALES REPORT LOAD - SUCCESS
 
-[INFO] Nov 26, 2023 7:47:04 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:47:04 PM Infra.BasePage - COMPREHENSIVE SALES REPORT LOADED
-[INFO] Nov 26, 2023 7:47:04 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:03 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:03 AM Infra.BasePage - COMPREHENSIVE SALES REPORT LOADED
+[INFO] Dec 15, 2023 9:28:03 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:47:06 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:47:06 PM Infra.BasePage - DOWNLOAD COMPREHENSIVE REPORT
-[INFO] Nov 26, 2023 7:47:06 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:05 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:05 AM Infra.BasePage - DOWNLOAD COMPREHENSIVE REPORT
+[INFO] Dec 15, 2023 9:28:05 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:47:10 PM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
-[INFO] Nov 26, 2023 7:47:14 PM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
+[INFO] Dec 15, 2023 9:28:09 AM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
+[INFO] Dec 15, 2023 9:28:13 AM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
 
-[INFO] Nov 26, 2023 7:47:19 PM Infra.BasePage - COMPREHENSIVE REPORT DOWNLOAD - SUCCESS 
+[INFO] Dec 15, 2023 9:28:18 AM Infra.BasePage - COMPREHENSIVE REPORT DOWNLOAD - SUCCESS 
 
-[INFO] Nov 26, 2023 7:47:30 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Nov 26, 2023 7:47:30 PM Infra.BasePage - COMPREHENSIVE REPORT DOWNLOADED
-[INFO] Nov 26, 2023 7:47:30 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:30 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:30 AM Infra.BasePage - COMPREHENSIVE REPORT DOWNLOADED
+[INFO] Dec 15, 2023 9:28:30 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:47:32 PM Infra.BasePage - =======================================================
-[INFO] Nov 26, 2023 7:47:32 PM Infra.BasePage - END SIMULATOR
-[INFO] Nov 26, 2023 7:47:32 PM Infra.BasePage - =======================================================
+[INFO] Dec 15, 2023 9:28:32 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:32 AM Infra.BasePage - LOAD REPORTS SCREEN
+[INFO] Dec 15, 2023 9:28:32 AM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Nov 26, 2023 7:47:34 PM Infra.BasePage - CREATED BACKUP DIRECTORY: D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-11-26_07.47.34 PM
-[INFO] Nov 26, 2023 7:47:34 PM Infra.BasePage - COPIED FILE: Comprehensive Sales Report Detailed.csv TO D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-11-26_07.47.34 PM\Comprehensive Sales Report Detailed.csv
-[INFO] Nov 26, 2023 7:47:34 PM Infra.BasePage - BACKUP FILES COPIED TO: D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-11-26_07.47.34 PM
+[INFO] Dec 15, 2023 9:28:34 AM Infra.BasePage - CLICK ON REPORTS BUTTON 
+
+[INFO] Dec 15, 2023 9:28:38 AM Infra.BasePage - REPORTS PAGE LOAD - SUCCESS
+
+[INFO] Dec 15, 2023 9:28:42 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:42 AM Infra.BasePage - REPORT SCREEN LOADED
+[INFO] Dec 15, 2023 9:28:42 AM Infra.BasePage - -------------------------------------------------------
+
+[INFO] Dec 15, 2023 9:28:44 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:28:44 AM Infra.BasePage - LOAD AVAILABILITY SALES REPORT
+[INFO] Dec 15, 2023 9:28:44 AM Infra.BasePage - -------------------------------------------------------
+
+[INFO] Dec 15, 2023 9:28:46 AM Infra.BasePage - CLICK ON VIEW AVAILABILITY SALES REPORT BUTTON 
+
+[INFO] Dec 15, 2023 9:28:54 AM Infra.BasePage - AVAILABILITY REPORT PAGE LOAD - SUCCESS
+
+[INFO] Dec 15, 2023 9:29:13 AM Infra.BasePage - SELECT SEASONS
+[INFO] Dec 15, 2023 9:29:21 AM Infra.BasePage - SELECT ALL VESSEL
+[INFO] Dec 15, 2023 9:29:29 AM Infra.BasePage - SELECT ALL TOURS
+[INFO] Dec 15, 2023 9:29:33 AM Infra.BasePage - CLICK ON VIEW REPORT BUTTON 
+
+[INFO] Dec 15, 2023 9:29:38 AM Infra.BasePage - AVAILABILITY REPORT LOAD - SUCCESS
+
+[INFO] Dec 15, 2023 9:29:42 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:29:42 AM Infra.BasePage - AVAILABILITY REPORT LOADED
+[INFO] Dec 15, 2023 9:29:42 AM Infra.BasePage - -------------------------------------------------------
+
+[INFO] Dec 15, 2023 9:29:44 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:29:44 AM Infra.BasePage - DOWNLOAD AVAILABILITY REPORT
+[INFO] Dec 15, 2023 9:29:44 AM Infra.BasePage - -------------------------------------------------------
+
+[INFO] Dec 15, 2023 9:29:48 AM Infra.BasePage - CLICK ON SAVE REPORT BUTTON
+[INFO] Dec 15, 2023 9:29:53 AM Infra.BasePage - CLICK ON DOWNLOAD CSV REPORT BUTTON 
+
+[INFO] Dec 15, 2023 9:29:58 AM Infra.BasePage - AVAILABILITY REPORT DOWNLOAD - SUCCESS 
+
+[INFO] Dec 15, 2023 9:30:09 AM Infra.BasePage - -------------------------------------------------------
+[INFO] Dec 15, 2023 9:30:09 AM Infra.BasePage - AVAILABILITY REPORT DOWNLOADED
+[INFO] Dec 15, 2023 9:30:09 AM Infra.BasePage - -------------------------------------------------------
+
+[INFO] Dec 15, 2023 9:30:11 AM Infra.BasePage - =======================================================
+[INFO] Dec 15, 2023 9:30:11 AM Infra.BasePage - END SIMULATOR
+[INFO] Dec 15, 2023 9:30:11 AM Infra.BasePage - =======================================================
+
+[INFO] Dec 15, 2023 9:30:13 AM Infra.BasePage - CREATED BACKUP DIRECTORY: D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-12-15_09.30.13 AM
+[INFO] Dec 15, 2023 9:30:13 AM Infra.BasePage - COPIED FILE: Availability Report.csv TO D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-12-15_09.30.13 AM\Availability Report.csv
+[INFO] Dec 15, 2023 9:30:13 AM Infra.BasePage - COPIED FILE: Comprehensive Sales Report Detailed.csv TO D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-12-15_09.30.13 AM\Comprehensive Sales Report Detailed.csv
+[INFO] Dec 15, 2023 9:30:13 AM Infra.BasePage - BACKUP FILES COPIED TO: D:\IdeaProjects\A21_ReportAutomation\Downloads\RezMagic_Reports_2023-12-15_09.30.13 AM
 
